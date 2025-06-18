@@ -1,7 +1,7 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const tipJarAddress = "0x2c27B478D598cd2d6E3c60D102742290325f194e";
+  const tipJarAddress = "0x48583ec0b2923f431fCBcd55bd01932BA02a0cCB";
 
   const [owner] = await ethers.getSigners();
   const TipJar = await ethers.getContractFactory("TipJar");
